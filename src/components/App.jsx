@@ -60,7 +60,7 @@ class App extends Component {
     const contactsParsed = JSON.parse(contacts);
 
     if (contactsParsed) {
-      // проверка на null при загрузке приложения
+      // проверка на null в localsrorage при загрузке приложения
       this.setState({ contacts: contactsParsed });
     }
   }
